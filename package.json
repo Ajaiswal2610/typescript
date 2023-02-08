@@ -1,0 +1,21 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "bst": "ts-node ./src/bst.ts",
+    "bst-book": "ts-node ./src/bstbook.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@datastructures-js/binary-search-tree": "^5.3.1",
+    "@rmanibus/binary-search-tree": "^0.3.3",
+    "process.args": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.19"
+  }
+}
